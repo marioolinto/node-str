@@ -1,0 +1,16 @@
+{
+  "name": "npm-str",
+  "version": "1.0.0",
+  "description": "web app demo npm-str",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Mario Olinto",
+  "license": "ISC",
+  "dependencies": {
+    "debug": "^3.1.0",
+    "express": "^4.16.2",
+    "http": "0.0.0"
+  }
+}
