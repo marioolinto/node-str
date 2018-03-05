@@ -4,6 +4,7 @@
   "description": "web app demo npm-str",
   "main": "index.js",
   "scripts": {
+    "start": "nodemon ./bin/server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Mario Olinto",
@@ -12,5 +13,8 @@
     "debug": "^3.1.0",
     "express": "^4.16.2",
     "http": "0.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.17.1"
   }
 }
