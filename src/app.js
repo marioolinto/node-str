@@ -19,6 +19,8 @@ mongoose.connect('mongodb://mario:momc@ds261678.mlab.com:61678/mnode-store');
 
 //Carrega os modelos
 const Product = require('./models/product');
+const Customer = require('./models/customer');
+const Order = require('./models/order');
 
 //Carrega Rotas
 const indexRoute = require('./routes/index-route');
