@@ -20,7 +20,7 @@ exports.getByStatus = async (status) => {
 
 exports.create = async (data) => {
     let order = new Order(data);
-    await order;    
+    await order.save();    
 }
 
 exports.put = async (id, data) => {
